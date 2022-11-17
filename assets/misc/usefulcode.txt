@@ -31,7 +31,7 @@
 </body>
 </html>
 
-COPIED FROM UCD-RESUME
+COPIED FROM UCD-RESUME (Requires Bootstrap)
 Header with nav links. Might be useful for the character nav things.
 
 <header>
@@ -72,7 +72,7 @@ Header with nav links. Might be useful for the character nav things.
         </div>
     </header>
 
-COPIED FROM WHISKEY DROP  
+COPIED FROM WHISKEY DROP (Requires Bootstrap)
 (I want to get the dropdown menu to work somehow if possible. Definitely low priority though.)
 
 HTML:
@@ -177,3 +177,25 @@ CSS:
 .quotes .page-header {
     margin-bottom: 25px;
 }
+
+COPIED FROM WHISKEY DROP (Requires Bootstrap)
+(This is for the circular image. Going to use it for the character icons!)
+
+<div class="row">
+                    <div class="col-12 col-md-6">
+                        <!-- This creats the circular image next to the quote! Only visible on Small and larger screens. -->
+                        <div class="media">
+                            <div class="d-none d-sm-block">
+                                <img src="assets/images/girl-image.png" class="rounded-circle mr-3" height="100"
+                                    width="100" alt="Jane Doe">
+                            </div>
+                            <div class="media-body">
+                                <blockquote class="blockquote">
+                                    <p>I've been introduced to more than 10 great international whiskeys I never knew
+                                        about.
+                                    </p>
+                                    <p>- Jane Doe</p>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
