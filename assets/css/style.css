@@ -14,6 +14,10 @@ body {
 
 /* Headers */
 
+header {
+    padding-bottom: 3rem;
+}
+
 h1,h2,h3,h4,h5,h6 {
     text-align: center;
 }
@@ -24,6 +28,16 @@ h1 a {
 
 div div h3 {
     padding-bottom: 50px;
+}
+
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    padding-top: 2rem;
+}
+
+.page-header h2 {
+    margin-top: 0;
 }
 
 /* Hero Image */
@@ -40,13 +54,6 @@ div div h3 {
     background-repeat: no-repeat; */
 }
 
-.hero-outer {
-    height: 100vh;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-}
-
 /* Containers */
 
 .content-container {
@@ -56,9 +63,45 @@ div div h3 {
 
 /* Character Navigation Icons */
 
+.charnav {
+    padding-top: 3rem;
+}
+
 .charnav-icon {
     /* This fixes a slight orientation issue with the character icons on the index page, centering the icons. */
     padding-left: 10%;
+}
+
+/* Character Portraits */
+.char-pic {
+    height: 100vh;
+    width: 100%;
+}
+
+.syn-char-pic {
+    background: url(../images/Bell.png) center no-repeat;
+    background-size: contain;
+}
+
+.corlan-char-pic {
+    background: url(../images/Corlan.png) center no-repeat;
+    background-size: contain;
+}
+
+.sun-char-pic {
+    background: url(../images/Sun.png) center no-repeat;
+    background-size: contain;
+}
+
+.bao-char-pic {
+    background: url(../images/Subao.png) center no-repeat;
+    background-size: contain;
+}
+
+/* Bio Space */
+
+.bio-space {
+    padding: 10rem;
 }
 
 /*  Responsive design for smaller screens */
@@ -66,5 +109,38 @@ div div h3 {
 @media screen and (max-width: 576px) {
     div div h3 {
         padding-bottom: 10px;
+    }
+
+    .char-pic {
+        height: 50vh;
+        width: 80%;
+    }
+
+    .charnav-icon {
+        padding-left: 4%;
+    }
+
+    .syn-char-pic {
+        background: url(../images/BellBust.png) center no-repeat;
+        background-size: contain;
+    }
+
+    .corlan-char-pic {
+        background: url(../images/CorlanBust.png) center no-repeat;
+        background-size: contain;
+    }
+
+    .sun-char-pic {
+        background: url(../images/SunBust.png) center no-repeat;
+        background-size: contain;
+    }
+
+    .bao-char-pic {
+        background: url(../images/SubaoBust.png) center no-repeat;
+        background-size: contain;
+    }
+
+    .bio-space {
+        padding: 3rem;
     }
 }
