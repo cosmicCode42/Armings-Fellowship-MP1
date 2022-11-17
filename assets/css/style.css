@@ -1,0 +1,46 @@
+/* General */
+
+/* * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+} */
+
+/* Headers */
+
+h1 {
+    text-align: center;
+}
+
+h1 a {
+    text-decoration: none;
+}
+
+/* Hero Image */
+
+#hero-image {
+    height: 700px;
+    width: 100%;
+    background: url('../images/armings_heroes.png') center no-repeat;
+    background-size: contain;
+    /* */
+    /* background-image: url('../images/armings_heroes.png');
+    background-size: cover (perhaps change to contain?);
+    background-position: center;
+    background-repeat: no-repeat; */
+}
+
+#hero-outer {
+    height: 700px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Navbars */
