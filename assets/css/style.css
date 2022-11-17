@@ -23,7 +23,6 @@ h1 a {
 }
 
 div div h3 {
-    padding-left: 50px;
     padding-bottom: 50px;
 }
 
@@ -60,4 +59,12 @@ div div h3 {
 .charnav-icon {
     /* This fixes a slight orientation issue with the character icons on the index page, centering the icons. */
     padding-left: 10%;
+}
+
+/*  Responsive design for smaller screens */
+
+@media screen and (max-width: 576px) {
+    div div h3 {
+        padding-bottom: 10px;
+    }
 }
