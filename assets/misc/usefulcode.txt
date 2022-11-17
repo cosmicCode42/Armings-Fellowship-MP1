@@ -31,7 +31,149 @@
 </body>
 </html>
 
-COPIED FROM WHISKEY DROP
+COPIED FROM UCD-RESUME
+Header with nav links. Might be useful for the character nav things.
 
-        
+<header>
+        <!-- The 'no-gutters' class helps with the default front gap thing.-->
+        <div class="row no-gutters">
+            <a href="index.html" class="col-md-4 logo">
 
+            </a>
+            <div class="col-md-8">
+                <div class="row no-gutters bg-color-name-title">
+                    <div class="col heading">
+                        <h1 class="name">Gabriel Eboreime</h1>
+                        <h2 class="title">Junior Front-End Developer</h2>
+                    </div>
+                </div>
+                <div class="row no-gutters">
+                    <div class="col">
+                        <ul id="nav" class="list-inline menucontainer">
+                            <li class="col-6 col-sm-3 ui-menu-color-home list-inline-item menuitem">
+                                <!-- Supposed to use 'hvr-sweep-to-bottom' here, but experimenting. The 'hvr' is what creates that neat bounce effect when the links are hovered over. -->
+                                <a href="index.html" class="hvr-bounce-to-right"><i class="fas fa-home" aria-hidden="true"></i><span>Home</span></a>
+                            </li>
+                            <li class="col-6 col-sm-3 ui-menu-color-resume list-inline-item menuitem">
+                                <a href="resume.html" class="hvr-bounce-to-right"><i class="fas fa-graduation-cap"
+                                        aria-hidden="true"></i><span>Resume</span></a>
+                            </li>
+                            <li class="col-6 col-sm-3 ui-menu-color-contact list-inline-item menuitem">
+                                <a href="contacts.html" class="hvr-bounce-to-right"><i class="fas fa-comment-dots"
+                                        aria-hidden="true"></i><span>Contact</span></a>
+                            </li>
+                            <li class="col-6 col-sm-3 ui-menu-color-download list-inline-item menuitem">
+                                <a href="https://docs.google.com/document/d/19kCRfhNLiz89dm2hheAeIyKcyTcMQMqckiDeV2FpN9U/edit?usp=sharing" target="_blank" class="cv-pdf hvr-bounce-to-right"><i class="fas fa-download" aria-hidden="true"></i><span>Download</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+COPIED FROM WHISKEY DROP  
+(I want to get the dropdown menu to work somehow if possible. Definitely low priority though.)
+
+HTML:
+<div class="container-fluid navalert-container">
+        <div class="container-fluid alert-container">
+            <!-- Sale Alert! This only appears on Small and larger screens. It's edited to fit the width of the screen and look less jarring above the header. -->
+            <div class="row d-none d-sm-block">
+                <div class="col-12">
+                    <div class="site-wide-alert alert alert-warning"><strong>Sale Now On!</strong> We've got a sale on.
+                        Get a 12-month subscription for the price of 6! <a href="">See here for details!</a></div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-dark navbar-expand-sm">
+            <a href="/" class="navbar-brand">Whiskey Drop</a>
+            <!-- Create a button to collapse the menu buttons into a small button on mobile screens -->
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- The menu buttons wrapped in a div to be collapsible via the above code -->
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mr-auto">
+                    <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="/about">About</a></li>
+                    <!-- A dropdown menu inside the collapsible - this leads to a selection of whiskeys -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Whiskeys
+                        </a>
+                        <!-- Here is the selection of whiskeys -->
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Irish</a>
+                            <a class="dropdown-item" href="#">Scotch</a>
+                            <a class="dropdown-item" href="#">Japanese</a>
+                            <a class="dropdown-item" href="#">American</a>
+                        </div>
+                    </li>
+                    <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="/login">Sign In / Sign Up</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- This only appears on Medium and larger screens -->
+            <div class="d-none d-md-block">
+                <p class="navbar-text my-auto mr-2"><em>Great whiskey delivered to your door!</em></p>
+                <a class="btn btn--red btn--cta" href="/login">Sign In / Sign Up</a>
+            </div>
+        </nav>
+    </div>
+
+CSS:
+.alert-container .col-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.callout-container {
+    height: 100vh;
+    /* This is what produces the full page background image. */
+    background: url('../images/whiskey-background-2.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+/* Page Headers */
+
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 0;
+}
+
+.quotes .page-header {
+    margin-bottom: 25px;
+}
+
+/* Page Headers */
+
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 0;
+}
+
+.quotes .page-header {
+    margin-bottom: 25px;
+}
