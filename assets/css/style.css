@@ -14,7 +14,7 @@ body {
 
 /* Headers */
 
-h1 {
+h1,h2,h3,h4,h5,h6 {
     text-align: center;
 }
 
@@ -22,10 +22,15 @@ h1 a {
     text-decoration: none;
 }
 
+div div h3 {
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+
 /* Hero Image */
 
-#hero-image {
-    height: 700px;
+.hero-image {
+    height: 100vh;
     width: 100%;
     background: url('../images/armings_heroes.png') center no-repeat;
     background-size: contain;
@@ -36,11 +41,23 @@ h1 a {
     background-repeat: no-repeat; */
 }
 
-#hero-outer {
-    height: 700px;
+.hero-outer {
+    height: 100vh;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
 
-/* Navbars */
+/* Containers */
+
+.content-container {
+    padding-top: 60px;
+    padding-bottom: 75px;
+}
+
+/* Character Navigation Icons */
+
+.charnav-icon {
+    /* This fixes a slight orientation issue with the character icons on the index page, centering the icons. */
+    padding-left: 10%;
+}

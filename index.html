@@ -5,33 +5,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="Description" content="A site for the " />
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> -->
+    <meta name="Description" content="A site for the fellowship of Armings" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Armings Quest</title>
 </head>
 
 <body>
-    <header>
+    <header class="container-fluid">
         <!-- Logo here!-->
-        <h1><a href="index.html">Armings Quest</a></h1>
+        <div class="row">
+            <div class="col-12 page-header">
+                <h2><a href="index.html">Armings Quest</a></h1>
+            </div>
+        </div>
     </header>
-    <section id="hero-outer">
+    <section class="container-fluid" id="group-shot">
         <!-- Section for the Hero Image! -->
-        <div id="hero-image"></div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="hero-outer">
+                        <div class="hero-image"></div>
+                    </div>
+                </div>
+            </div>
     </section>
-    <section id="characters">
-        <!-- This section will have four icons (ideally centred) leading to each of the character bios.-->
-        <p>Welcome! You're here about the heroes of our fair village, aren't you? Right this way.</p>
-        <h3>Meet the Fellowship!</h3>
-        <p><a href="bell.html">Bell (previously Syn'agon Caibella Elinore, the Aurora Way)</a></p>
-        <p><a href="corlan.html">Corlan</a></p>
-        <p><a href="subao.html.">Subao</a></p>
-        <p><a href="sun.html">Sun</a></p>
+    <!-- Hero Image section end. -->
+
+    <!-- Section for character nav bar thing? -->
+    <section class="container-wrapper" id="hero-nav">
+        <!-- This section has four centred icons leading to each of the character bios.-->
+        <div class="container bio-container content-container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h3>Meet the Fellowship!</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6 col-md-3 charnav-icon" id="syn-icon">
+                    <div class="media">
+                        <div class="d-none d-sm-block">
+                            <a href="bell.html"><img src="assets/images/BellBust.png" class="rounded-circle mr-3"
+                                    height="100" width="100" alt="Bell (nee Syn'Agonafree)"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 charnav-icon" id="corlan-icon">
+                    <div class="media">
+                        <div class="d-none d-sm-block">
+                            <a href="corlan.html"><img src="assets/images/CorlanBust.png" class="rounded-circle mr-3"
+                                    height="100" width="100" alt="Corlan Falster"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 charnav-icon" id="sun-icon">
+                    <div class="media">
+                        <div class="d-none d-sm-block">
+                            <a href="sun.html"><img src="assets/images/SunBust.png" class="rounded-circle mr-3" height="100"
+                                    width="100" alt="Sun Mullnir"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 charnav-icon" id="bao-icon">
+                    <div class="media">
+                        <div class="d-none d-sm-block">
+                            <a href="subao.html"><img src="assets/images/SubaoBust.png" class="rounded-circle mr-3"
+                                    height="100" width="100" alt="Subao"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
-    <footer>
-        <div>Copyright Gabriel Eboreime 2022 - 2022</div>
+    <footer class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div>Copyright Gabriel Eboreime 2022 - 2022</div>
+            </div>
+        </div>
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
