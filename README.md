@@ -20,6 +20,7 @@ Milestone Project for the Introduction to Web Development course offered by Code
 	- an individual page for each character (4 pages in all)
 		- Header can be an IC quote; under it, give a brief overview of the character.
 			- Include class, (summary of history?), and personality
+		- Character picture set to the left of the page; text in a separate section to the right.
 
 #### Will also want the following:
 - History of the Fellowship!
