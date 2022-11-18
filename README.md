@@ -31,8 +31,8 @@ Milestone Project for the Introduction to Web Development course offered by Code
 	- **Solution:** Removed the media class from all icons on all pages. This also helped with the orientation issue.
 - **Problem:** Discovered one of the classes added to the character icons (the mr-3 class) was adding a bit of space to the right of the icons.
 	- **Solution:** Removed the mr-3 class from all icons. As an added bonus, the left padding is no longer necessary (and in fact contributes to the lopsided issue now), so I removed those CSS rules.
-- **Problem:** Misplaced a </div> within the character icon section on Subao's page. This closed the 'charnav' section early, causing a very strange lopsided effect where two of the icons were excluded and formed new rows.
-	- **Solution:** Deleted the additional </div>, which fixed the issue.
+- **Problem:** Misplaced a closing div within the character icon section on Subao's page. This closed the 'charnav' section early, causing a very strange lopsided effect where two of the icons were excluded and formed new rows.
+	- **Solution:** Deleted the additional closing div, which fixed the issue.
 
 #### Future Additions:
 - Music?
