@@ -6,6 +6,7 @@ BACKGROUND: Acolyte
 CLASS: Cleric
 SPECIALITY: Healing, Support, and Buffing
 SUMMARY: Born during the fall of Thay, Syn is byproduct of two powerful figures forming a union to create a successful heir to their throne. Unfortunately, the free spirited Elf left her old life behind the moment she was left loose on Toril, finding religion, home, friends, and more.
+ALIGNMENT: Lawful Good
 STATS: Str 14, Dex 18, Con 14, Int 16, Wis 20, Cha 18
 ---
 NAME: Corlan Falster
@@ -14,6 +15,7 @@ BACKGROUND: Feybound
 CLASS: Magus (archer dedication)
 SPECIALTY: Urban ranger, Negotiator, Burst Sniper
 SUMMARY: Corlan was exiled from his home for being tainted with fey magics, making his hair and eyes change colors with the seasons. He mostly relies on his Oathbow to settle conflict, but now his fey magics are starting to spike more often and more violently for some reason.
+ALIGNMENT: Chaotic Good
 STATS: Str 16, Dex 21, Con 16, Int 12, Wis 14, Cha 19
 ---
 NAME: Subao
@@ -22,6 +24,7 @@ BACKGROUND: Returned
 CLASS: Fighter/Rogue
 SPECIALITY: Melee Striking/Single Target Lockdown/Grapple/Intimidate
 SUMMARY: Subao is a sellsword who has come into contact with a sentient weapon in his travels with the group. After being slain by a foe, this weapon has returned him to life and the two are now bound together. He is currently in a relationship with Syn and the guild leader of a bounty hunting guild.
+ALIGNMENT: Chaotic Neutral
 STATS: Str 21, Dex 16, Con 19, Int 10, Wis 14, Cha 18
 ---
 NAME: Sun Mullnir
@@ -30,5 +33,6 @@ BACKGROUND: Feral Child
 CLASS: Barbarian [Druid]
 SPECIALITY: 2-handed weapon wielding! Hammer go smash. Longaxe go chop chop. Also tanking and mundane healing?
 SUMMARY: A simple drummer with a big heart. Very protective of her own. Somehow she ended up as the successor to the Mog-Ur, a spiritual leader of sorts for the settlement of Armings hidden within the Neverwinter Woods.
+ALIGNMENT: Chaotic Good
 STATS: Str 21, Dex 16, Con 19, Int 8, Wis 18, Cha 14
 ---
