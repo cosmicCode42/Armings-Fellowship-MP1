@@ -4,22 +4,21 @@ Milestone Project for the Introduction to Web Development course offered by Code
 
 **Technologies Used:** HTML5, CSS3; Bootstrap 4.5.3.
 
-## Site Plan
-
 ### UX
 - Intended audience: myself and my friends, as well as other people that might be interested in following our group's adventures.
-- Goals: provide information about all the characters in the party as well as an overview of the group's adventures and accomplishments.
+- Goals: provide information about all the characters in the party.
 
 #### Will need the following:
 - An index page with a hero image - the four heroes of Armings: Bell, Subao, Corlan Falster, and Sun Mullnir.
 	- Heading: ARMINGS QUEST (needs to be stylised)
-	- Section: Welcome to the Fellowship!
+	- Section: Welcome to the Fellowship! (Added!)
 	- Links to each of the characters' pages (DONE!)
 - Character pages!
-	- an individual page for each character (4 pages in all; skeletons done!)
-		- Header can be an IC quote; under it, give a brief overview of the character.
-			- Include class and summary of history
+	- an individual page for each character (4 pages in all; making good progress!)
 		- Character picture set to the left of the page; text in a separate section to the right.
+			- Text has 2 sections: Header and small bio.
+				- Header is character name, with a subtitle of a character title!
+				- Bio includes class and summary of history.
 			- Add progress bars to indicate relative stats of each party member! (In Progress)
 
 ### Technical Issues
@@ -30,9 +29,9 @@ Milestone Project for the Introduction to Web Development course offered by Code
 - **Problem:** Discovered that I had been using a media class for the character icons when I didn't need to.
 	- **Solution:** Removed the media class from all icons on all pages. This also helped with the orientation issue.
 - **Problem:** Discovered one of the classes added to the character icons (the mr-3 class) was adding a bit of space to the right of the icons.
-	- **Solution:** Removed the mr-3 class from all icons. As an added bonus, the left padding is no longer necessaryN(and in fact contributes to the lopsided issue now), so I removed those CSS rules.
+	- **Solution:** Removed the mr-3 class from all icons. As an added bonus, the left padding is no longer necessary (and in fact contributes to the lopsided issue now), so I removed those CSS rules.
 - **Problem:** Misplaced a </div> within the character icon section on Subao's page. This closed the 'charnav' section early, causing a very strange lopsided effect where two of the icons were excluded and formed new rows.
-	- **Solution:** Deleted the additional </div>
+	- **Solution:** Deleted the additional </div>, which fixed the issue.
 
 #### Future Additions:
 - History of the Fellowship!
