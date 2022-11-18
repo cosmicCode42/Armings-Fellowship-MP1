@@ -130,6 +130,15 @@ div div h3 {
     background-color: rgba(25,25,25, 0.2);
 }
 
+.stat-type {
+    position: absolute;
+    left: 0px;
+    font-weight: 500;
+    padding: 12px 20px 15px 10px;
+    color: #fafafa;
+    background-color: rgba(25,25,25, 0.2);
+}
+
 .bio-stats {
     margin: 40px 20px;
 }
