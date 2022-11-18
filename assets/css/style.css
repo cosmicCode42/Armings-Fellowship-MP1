@@ -76,15 +76,6 @@ div div h3 {
     padding-top: 3rem;
 }
 
-.charnav-index-icon {
-    /* This fixes a slight orientation issue with the character icons on the index page, centering the icons. */
-    padding-left: 7.5%;
-}
-
-.charnav-icon {
-    padding-left: 7%;
-}
-
 /* Character Portraits */
 .char-pic {
     height: 100vh;
@@ -153,15 +144,6 @@ div div h3 {
     .char-pic {
         height: 50vh;
         width: 80%;
-    }
-
-    .charnav-index-icon {
-        /* Refixes orientation issue on index page for smaller screens. */
-        padding-left: 12.5%;
-    }
-
-    .charnav-icon {
-        padding-left: 5%;
     }
 
     .syn-char-pic {

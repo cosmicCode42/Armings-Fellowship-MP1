@@ -27,6 +27,8 @@ Milestone Project for the Introduction to Web Development course offered by Code
 	- **Solution:** I added percentage padding to the left of each icon to make them more central and adjusted the padding on smaller screens with a CSS @media rule to keep them oriented for that layout.
 - **Problem:** Character icons on the chracter pages were pushed too far to the left on smaller screen sizes.
 	- **Solution:** I used a different class (charnav-icon instead of charnav-index-icon) with slightly different padding to account for the differences in layout between the index page and the character pages.
+- **Problem:** Discovered that I had been using a media class for the character icons when I didn't need to.
+	- **Solution:** Removed the media class from all icons on all pages. This also helped with the orientation issue.
 
 #### Future Additions:
 - History of the Fellowship!
