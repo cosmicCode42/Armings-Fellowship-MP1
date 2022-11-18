@@ -18,6 +18,15 @@ SUMMARY: Corlan was exiled from his home for being tainted with fey magics, maki
 ALIGNMENT: Chaotic Good
 STATS: Str 16, Dex 21, Con 16, Int 12, Wis 14, Cha 19
 ---
+NAME: Sun Mullnir
+ANCESTRY: Unbreakable Goblin
+BACKGROUND: Feral Child
+CLASS: Barbarian [Druid]
+SPECIALITY: Mundane healing, damage (sometimes), crowd control.
+SUMMARY: A simple drummer with a big heart. Very protective of her own. Somehow she ended up as the successor to the Mog-Ur, a spiritual leader of sorts for the settlement of Armings hidden within the Neverwinter Woods.
+ALIGNMENT: Chaotic Good
+STATS: Str 21, Dex 16, Con 19, Int 8, Wis 18, Cha 14
+---
 NAME: Subao
 ANCESTRY: (Shadow) Dragonborn
 BACKGROUND: Returned
@@ -26,13 +35,4 @@ SPECIALITY: Melee Striking/Single Target Lockdown/Grapple/Intimidate
 SUMMARY: Subao is a sellsword who has come into contact with a sentient weapon in his travels with the group. After being slain by a foe, this weapon has returned him to life and the two are now bound together. He is currently in a relationship with Syn and the guild leader of a bounty hunting guild.
 ALIGNMENT: Chaotic Neutral
 STATS: Str 21, Dex 16, Con 19, Int 10, Wis 14, Cha 18
----
-NAME: Sun Mullnir
-ANCESTRY: Unbreakable Goblin
-BACKGROUND: Feral Child
-CLASS: Barbarian [Druid]
-SPECIALITY: 2-handed weapon wielding! Hammer go smash. Longaxe go chop chop. Also tanking and mundane healing?
-SUMMARY: A simple drummer with a big heart. Very protective of her own. Somehow she ended up as the successor to the Mog-Ur, a spiritual leader of sorts for the settlement of Armings hidden within the Neverwinter Woods.
-ALIGNMENT: Chaotic Good
-STATS: Str 21, Dex 16, Con 19, Int 8, Wis 18, Cha 14
 ---
