@@ -29,6 +29,10 @@ Milestone Project for the Introduction to Web Development course offered by Code
 	- **Solution:** I used a different class (charnav-icon instead of charnav-index-icon) with slightly different padding to account for the differences in layout between the index page and the character pages.
 - **Problem:** Discovered that I had been using a media class for the character icons when I didn't need to.
 	- **Solution:** Removed the media class from all icons on all pages. This also helped with the orientation issue.
+- **Problem:** Discovered one of the classes added to the character icons (the mr-3 class) was adding a bit of space to the right of the icons.
+	- **Solution:** Removed the mr-3 class from all icons. As an added bonus, the left padding is no longer necessaryN(and in fact contributes to the lopsided issue now), so I removed those CSS rules.
+- **Problem:** Misplaced a </div> within the character icon section on Subao's page. This closed the 'charnav' section early, causing a very strange lopsided effect where two of the icons were excluded and formed new rows.
+	- **Solution:** Deleted the additional </div>
 
 #### Future Additions:
 - History of the Fellowship!
