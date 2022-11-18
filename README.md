@@ -12,19 +12,24 @@ Milestone Project for the Introduction to Web Development course offered by Code
 
 #### Will need the following:
 - An index page with a hero image - the four heroes of Armings: Bell, Subao, Corlan Falster, and Sun Mullnir.
-	- Heading: ARMINGS QUEST
-	- Image is the commission Poison got for the characters.
+	- Heading: ARMINGS QUEST (needs to be stylised)
 	- Section: Welcome to the Fellowship!
-	- Also have links to each of the characters' pages.
+	- Links to each of the characters' pages (DONE!)
 - Character pages!
-	- an individual page for each character (4 pages in all)
+	- an individual page for each character (4 pages in all; skeletons done!)
 		- Header can be an IC quote; under it, give a brief overview of the character.
-			- Include class, (summary of history?), and personality
+			- Include class and summary of history
 		- Character picture set to the left of the page; text in a separate section to the right.
+			- Add progress bars to indicate relative stats of each party member! (In Progress)
 
-#### Will also want the following:
+### Technical Issues
+- **Problem:** The character icons looked slightly lopsided on the index page.
+	- **Solution:** I added percentage padding to the left of each icon to make them more central and adjusted the padding on smaller screens with a CSS @media rule to keep them oriented for that layout.
+- **Problem:** Character icons on the chracter pages were pushed too far to the left on smaller screen sizes.
+	- **Solution:** I used a different class (charnav-icon instead of charnav-index-icon) with slightly different padding to account for the differences in layout between the index page and the character pages.
+
+#### Future Additions:
 - History of the Fellowship!
-	- A brief overview of Armings Quest adventures; use the timeline from the CV site!
-	- Probably something to add for the future.
+	- A brief overview of Armings Quest adventures, using a timeline format.
 - Friends of the Fellowship pages!
-	- Something to add for the future: details of the assorted allies of the party.
+	- Details of the assorted allies of the party.

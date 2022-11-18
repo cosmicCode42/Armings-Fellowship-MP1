@@ -1,6 +1,6 @@
 /* General */
 
-/* * {
+* {
     margin: 0;
     padding: 0;
     border: 0;
@@ -10,7 +10,7 @@ html,
 body {
     height: 100%;
     width: 100%;
-} */
+}
 
 .text-left {
     text-align: left;
@@ -22,7 +22,12 @@ header {
     padding-bottom: 3rem;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     text-align: center;
 }
 
@@ -51,11 +56,11 @@ div div h3 {
     width: 100%;
     background: url('../images/armings_heroes.png') center no-repeat;
     background-size: contain;
-    /* */
-    /* background-image: url('../images/armings_heroes.png');
-    background-size: cover (perhaps change to contain?);
-    background-position: center;
-    background-repeat: no-repeat; */
+}
+
+.blurb {
+    padding-top: 4%;
+    padding-bottom: 0;
 }
 
 /* Containers */
@@ -71,8 +76,12 @@ div div h3 {
     padding-top: 3rem;
 }
 
-.charnav-icon {
+.charnav-index-icon {
     /* This fixes a slight orientation issue with the character icons on the index page, centering the icons. */
+    padding-left: 7.5%;
+}
+
+.charnav-icon {
     padding-left: 7%;
 }
 
@@ -105,7 +114,13 @@ div div h3 {
 /* Bio Space */
 
 .bio-space {
-    padding: 10rem;
+    padding: 2rem;
+}
+
+.bio-header,
+.bio-info,
+.bio-stats {
+    padding: 2rem;
 }
 
 /*  Responsive design for smaller screens */
@@ -120,8 +135,13 @@ div div h3 {
         width: 80%;
     }
 
+    .charnav-index-icon {
+        /* Refixes orientation issue on index page for smaller screens. */
+        padding-left: 12.5%;
+    }
+
     .charnav-icon {
-        padding-left: 4%;
+        padding-left: 5%;
     }
 
     .syn-char-pic {
@@ -145,6 +165,12 @@ div div h3 {
     }
 
     .bio-space {
-        padding: 3rem;
+        padding: 1rem;
+    }
+
+    .bio-header,
+    .bio-info,
+    .bio-stats {
+        padding: 1rem;
     }
 }
