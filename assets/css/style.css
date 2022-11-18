@@ -118,9 +118,29 @@ div div h3 {
 }
 
 .bio-header,
-.bio-info,
-.bio-stats {
+.bio-info {
     padding: 2rem;
+}
+
+/* Stat Bars */
+
+.progress {
+    position: relative;
+    height: 25px;
+    margin-bottom: 4px;
+}
+
+.progress-type {
+    position: absolute;
+    left: 0px;
+    font-weight: 500;
+    padding: 12px 20px 15px 10px;
+    color: #fafafa;
+    background-color: rgba(25,25,25, 0.2);
+}
+
+.bio-stats {
+    margin: 40px 20px;
 }
 
 /*  Responsive design for smaller screens */
@@ -169,8 +189,7 @@ div div h3 {
     }
 
     .bio-header,
-    .bio-info,
-    .bio-stats {
+    .bio-info {
         padding: 1rem;
     }
 }
