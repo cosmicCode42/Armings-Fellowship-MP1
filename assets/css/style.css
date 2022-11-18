@@ -121,15 +121,6 @@ div div h3 {
     margin-bottom: 4px;
 }
 
-.progress-type {
-    position: absolute;
-    left: 0px;
-    font-weight: 500;
-    padding: 12px 20px 15px 10px;
-    color: #fafafa;
-    background-color: rgba(25,25,25, 0.2);
-}
-
 .stat-type {
     position: absolute;
     left: 0px;

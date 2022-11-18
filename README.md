@@ -20,8 +20,7 @@ Milestone Project for the Introduction to Web Development course offered by Code
 			- Text has 2 sections: Header and small bio.
 				- Header is character name, with a subtitle of a character title!
 				- Bio includes class and summary of history.
-			- Add progress bars to indicate relative stats of each party member! (In Progress; mostly done!)
-				- Add numbers on the bars
+			- Add progress bars to indicate relative stats of each party member! (DONE!)
 
 ### Technical Issues
 - **Problem:** The character icons looked slightly lopsided on the index page.
