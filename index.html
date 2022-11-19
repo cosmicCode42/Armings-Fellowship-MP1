@@ -13,21 +13,46 @@
 </head>
 
 <body>
-    <header class="container-fluid">
-        <!-- Logo here!-->
+    <header class="container-fluid index-header">
+        <!-- Logo and navbar here!-->
         <div class="row">
-            <div class="col-12 page-header">
-                <h1>Armings Quest</h1>
+            <div class="col nav-index">
+                <nav class="navbar navbar-expand-md">
+                    <a href="#" class="navbar-brand">Armings Quest</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Characters
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#hero-nav">The Fellowship</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item disabled" href="#">Allies of the Fellowship</a>
+                                    <a class="dropdown-item disabled" href="#">Other</a>
+                                </div>
+                            </li>
+                            <a class="nav-link disabled" href="history.html">History</a>
+                        </div>
+                    </div>
+                </nav>
             </div>
         </div>
     </header>
+
+    <!-- Section for the Hero Image! The image is only visible on Medium and larger screens. -->
     <section class="container-fluid" id="group-shot">
-        <!-- Section for the Hero Image! Only visible on Medium and larger screens. -->
-        <div class="row d-none d-md-block">
+        <div class="row d-none d-md-block hero-outer">
             <div class="col hero-image">
             </div>
         </div>
-        <!-- This is what shows up on Small and smaller screens. -->
         <div class="row d-block">
             <div class="col blurb text-center">
                 <p>Welcome! Here you'll find information on the group of adventurers affiliated with Armings, a small
@@ -49,8 +74,9 @@
             <div class="row">
                 <div class="col-6 col-md-3 text-center charnav-index-icon" id="syn-icon">
                     <a href="bell.html">
-                        <figure class="figure"><img src="assets/images/BellBust.png" class="rounded-circle" height="100"
-                                width="100" alt="Bell (Syn'Agonafree)">
+                        <figure class="figure">
+                            <img src="assets/images/BellBust.png" class="rounded-circle" height="100" width="100"
+                                alt="Bell (Syn'Agonafree)">
                             <figcaption class="figure-caption">Bell</figcaption>
                         </figure>
                     </a>
@@ -85,13 +111,18 @@
             </div>
         </div>
     </section>
-    <footer class="footer container-fluid">
+    <!-- Character icon section end. -->
+
+    <!-- Footer -->
+    <footer class="footer container-fluid fixed-bottom">
         <div class="row">
             <div class="col-12">
                 <div class="float-right">Copyright Gabriel Eboreime 2022 - 2022</div>
             </div>
         </div>
     </footer>
+    <!-- Footer end. -->
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>

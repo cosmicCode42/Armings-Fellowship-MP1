@@ -49,13 +49,51 @@ div div h3 {
     margin-top: 0;
 }
 
+/* Navbars */
+
+.nav-index {
+    background-color: firebrick;
+    color: #fafafa;
+}
+
+.nav-index a {
+    color: #fafafa;
+}
+
+.nav-index .active {
+    text-decoration: underline;
+}
+
+.nav-index a:hover {
+    color: rgb(232, 222, 222);
+}
+
+.nav-index .active:hover {
+    color: #fafafa;
+}
+
+.nav-index .dropdown-menu {
+    background-color: firebrick;
+}
+.rounded-circle:hover{
+    opacity: 0.7
+}
+
+/* Footer */
+
+footer {
+    background-color: firebrick;
+    color: #fafafa;
+}
+
 /* Hero Image */
 
 .hero-image {
-    height: 100vh;
+    height: 112vh;
     width: 100%;
     background: url('../images/armings_heroes.png') center no-repeat;
-    background-size: contain;
+    background-size: cover;
+    background-position: inherit;
 }
 
 .blurb {
@@ -135,6 +173,45 @@ div div h3 {
 }
 
 /*  Responsive design for smaller screens */
+
+@media screen and (max-width: 1440px) {
+    .hero-image {
+        height: 96vh;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .hero-image {
+        height: 86vh;
+        background-size: cover;
+    }
+}
+
+/* This is specifically for the Surface Pro 7, for which my hatred burns like a thousand suns. */
+@media screen and (max-width: 912px) {
+    .hero-image {
+        height: 64vh;
+        max-height: 420px;
+        background-size: contain;
+        background-position: center;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .hero-image {
+        height: 64vh;
+        max-height: 420px;
+        background-size: contain;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero-image {
+        height: 64vh;
+        max-height: 420px;
+        background-size: contain;
+    }
+}
 
 @media screen and (max-width: 576px) {
     div div h3 {

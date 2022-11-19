@@ -35,6 +35,9 @@ Milestone Project for the Introduction to Web Development course offered by Code
 	- **Solution:** Deleted the additional closing div, which fixed the issue.
 - **Problem:** The numbers added to the progress bars representing character statistics look strange on smaller screens.
 	- **Solution:** Added a span that only displays the numbers on Small or smaller screens, on which they look fine. The exception is Sun's Intelligence of 8, which only displays on Large or larger screens.
+- **Problem:** There was a great amount of space between the navbar and the hero image on the index page.
+	- **Solution:** Set the background-position value of the hero image to 'inherit', which fixed the space issue.
+	- **Problem:** This solution caused the image to become lopsided on larger screens. To fix this, I added separate @media rules for each screen size in which there was an issue and adjusted until the page looked serviceable.
 
 #### Future Additions:
 - Music?
