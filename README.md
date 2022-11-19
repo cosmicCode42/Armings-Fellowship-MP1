@@ -33,6 +33,8 @@ Milestone Project for the Introduction to Web Development course offered by Code
 	- **Solution:** Removed the mr-3 class from all icons. As an added bonus, the left padding is no longer necessary (and in fact contributes to the lopsided issue now), so I removed those CSS rules.
 - **Problem:** Misplaced a closing div within the character icon section on Subao's page. This closed the 'charnav' section early, causing a very strange lopsided effect where two of the icons were excluded and formed new rows.
 	- **Solution:** Deleted the additional closing div, which fixed the issue.
+- **Problem:** The numbers added to the progress bars representing character statistics look strange on smaller screens.
+	- **Solution:** Added a span that only displays the numbers on Small or smaller screens, on which they look fine. The exception is Sun's Intelligence of 8, which only displays on Large or larger screens.
 
 #### Future Additions:
 - Music?
