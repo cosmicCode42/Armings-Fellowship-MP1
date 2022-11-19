@@ -10,10 +10,10 @@ Milestone Project for the Introduction to Web Development course offered by Code
 
 #### Will need the following:
 - An index page with a hero image - the four heroes of Armings: Bell, Subao, Corlan Falster, and Sun Mullnir.
-	- Heading: ARMINGS QUEST (needs to be stylised)
-	- Section: Welcome to the Fellowship! (Added!)
+	- Heading: ARMINGS QUEST (needs to be stylised!!!)
+	- Blurb: Welcome to the Fellowship! (Added!)
 	- Links to each of the characters' pages (DONE!)
-		- Turn Images into Figures to add characters' names under their images.
+		- Turn Images into Figures to add characters' names under their images. (DONE!)
 - Character pages!
 	- an individual page for each character (4 pages in all; making good progress!)
 		- Character picture set to the left of the page; text in a separate section to the right.
