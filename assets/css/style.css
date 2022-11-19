@@ -1,3 +1,5 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+
 /* General */
 
 * {
@@ -18,7 +20,9 @@ body {
 
 /* Headers */
 
-header h1,h2,h3{
+header h1,
+h2,
+h3 {
     padding-bottom: 1rem;
 }
 
@@ -65,18 +69,18 @@ div div h3 {
 }
 
 .nav-index a:hover {
-    color: rgb(232, 222, 222);
-}
-
-.nav-index .active:hover {
     color: #fafafa;
+    text-decoration: underline;
 }
 
-.nav-index .dropdown-menu {
+.nav-index .dropdown-menu,
+.nav-index .dropdown-menu .active,
+.nav-index .dropdown-menu .dropdown-item:hover {
     background-color: firebrick;
 }
-.rounded-circle:hover{
-    opacity: 0.7
+
+.rounded-circle:hover {
+    opacity: 0.7;
 }
 
 /* Footer */
@@ -104,7 +108,7 @@ footer {
 /* Containers */
 
 .content-container {
-    padding-top: 60px;
+    padding-top: 30px;
     padding-bottom: 75px;
 }
 
@@ -121,22 +125,22 @@ footer {
 }
 
 .syn-char-pic {
-    background: url(../images/Bell.png) center no-repeat;
+    background: url(../images/bell_full.png) center no-repeat;
     background-size: contain;
 }
 
 .corlan-char-pic {
-    background: url(../images/Corlan.png) center no-repeat;
+    background: url(../images/corlan_full.png) center no-repeat;
     background-size: contain;
 }
 
 .sun-char-pic {
-    background: url(../images/Sun.png) center no-repeat;
+    background: url(../images/sun_full.png) center no-repeat;
     background-size: contain;
 }
 
 .bao-char-pic {
-    background: url(../images/Subao.png) center no-repeat;
+    background: url(../images/subao_full.png) center no-repeat;
     background-size: contain;
 }
 
@@ -165,7 +169,7 @@ footer {
     font-weight: 500;
     padding: 12px 20px 15px 10px;
     color: #fafafa;
-    background-color: rgba(25,25,25, 0.2);
+    background-color: rgba(25, 25, 25, 0.2);
 }
 
 .bio-stats {
@@ -228,22 +232,22 @@ footer {
     }
 
     .syn-char-pic {
-        background: url(../images/BellBust.png) center no-repeat;
+        background: url(../images/bell_bust.png) center no-repeat;
         background-size: contain;
     }
 
     .corlan-char-pic {
-        background: url(../images/CorlanBust.png) center no-repeat;
+        background: url(../images/corlan_bust.png) center no-repeat;
         background-size: contain;
     }
 
     .sun-char-pic {
-        background: url(../images/SunBust.png) center no-repeat;
+        background: url(../images/sun_bust.png) center no-repeat;
         background-size: contain;
     }
 
     .bao-char-pic {
-        background: url(../images/SubaoBust.png) center no-repeat;
+        background: url(../images/subao_bust.png) center no-repeat;
         background-size: contain;
     }
 

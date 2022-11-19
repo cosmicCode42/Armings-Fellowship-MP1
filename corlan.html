@@ -14,37 +14,79 @@
 
 <body>
     <header>
+
+        <!-- Navbar here!-->
         <div class="row">
-            <div class="col-12">
-                <a href="index.html">Back to home page</a>
+            <div class="col nav-index">
+                <nav class="navbar navbar-expand-md">
+                    <span class="navbar-brand mb-0 h2">Armings Quest</span>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <i class="bi bi-arrows-expand" style="color: aliceblue;"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link" href="index.html">Home</span></a>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Characters
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="bell.html">Bell </a>
+                                    <a class="dropdown-item active" href="#">Corlan<span
+                                        class="sr-only">(current)</span></a>
+                                    <a class="dropdown-item" href="sun.html">Sun</a>
+                                    <a class="dropdown-item" href="subao.html">Subao</a>
+
+                                    <div class="dropdown-divider"></div>
+
+                                    <!-- All this stuff is coming later. -->
+                                    <a class="dropdown-item disabled" href="#">Allies of the Fellowship</a>
+                                    <a class="dropdown-item disabled" href="#">Other</a>
+                                    <!-- The above stuff is coming soon! -->
+                                </div>
+                            </li>
+                            <!-- History coming soon! -->
+                            <a class="nav-link disabled" href="history.html">History</a>
+                        </div>
+                    </div>
+                </nav>
             </div>
         </div>
+        <!-- Navbar end. -->
+
+        <!-- These are the character icons! -->
         <div class="row charnav">
             <div class="col-md-5 charnav-icon">
-                    <div class="d-none">
-                        <img src="assets/images/blank.png" class="rounded-circle" height="100" width="100" alt="">
-                    </div>
+                <div class="d-none">
+                    <img src="assets/images/blank.png" class="rounded-circle" height="100" width="100" alt="">
+                </div>
             </div>
             <div class="col-4 col-md-2 charnav-icon" id="syn-icon">
-                    <div class="text-center">
-                        <a href="bell.html"><img src="assets/images/BellBust.png" class="rounded-circle"
-                                height="100" width="100" alt="Bell (nee Syn'Agonafree)"></a>
-                    </div>
+                <div class="text-center">
+                    <a href="bell.html"><img src="assets/images/bell_bust.png" class="rounded-circle" height="100"
+                            width="100" alt="Bell (nee Syn'Agonafree)"></a>
+                </div>
             </div>
             <div class="col-4 col-md-2 charnav-icon" id="sun-icon">
-                    <div class="text-center">
-                        <a href="sun.html"><img src="assets/images/SunBust.png" class="rounded-circle" height="100"
-                                width="100" alt="Sun Mullnir"></a>
-                    </div>
+                <div class="text-center">
+                    <a href="sun.html"><img src="assets/images/sun_bust.png" class="rounded-circle" height="100"
+                            width="100" alt="Sun Mullnir"></a>
+                </div>
             </div>
             <div class="col-4 col-md-2 charnav-icon" id="bao-icon">
-                    <div class="text-center">
-                        <a href="subao.html"><img src="assets/images/SubaoBust.png" class="rounded-circle"
-                                height="100" width="100" alt="Subao"></a>
-                    </div>
+                <div class="text-center">
+                    <a href="subao.html"><img src="assets/images/subao_bust.png" class="rounded-circle" height="100"
+                            width="100" alt="Subao"></a>
+                </div>
             </div>
         </div>
+        <!-- Character icons end. -->
+
     </header>
+
     <section class="container-fluid">
         <div class="row">
             <div class="col-12 col-sm-4 char-pic corlan-char-pic"></div>
@@ -62,7 +104,8 @@
                         <p>CLASS: Magus (Archer Dedication)</p>
                         <p>SPECIALTY: Urban ranger, Negotiator, Burst Sniper</p>
                         <p>Corlan was exiled from his home for being tainted with fey magics, making his hair and eyes
-                            change colors with the seasons. He mostly relies on his Oathbow to settle conflict, but now his fey
+                            change colors with the seasons. He mostly relies on his Oathbow to settle conflict, but now
+                            his fey
                             magics are starting to spike more often and more violently for some reason.</p>
                     </div>
                 </div>
@@ -86,8 +129,8 @@
                             <span class="stat-type">Dexterity</span>
                         </div>
                         <div class="progress">
-                            <div class="progress-bar bg-secondary" role="progressbar" aria-valuenow="16" aria-valuemin="0"
-                                aria-valuemax="21" style="width:76.19%;">
+                            <div class="progress-bar bg-secondary" role="progressbar" aria-valuenow="16"
+                                aria-valuemin="0" aria-valuemax="21" style="width:76.19%;">
                                 <span class="d-none d-sm-inline">16</span>
                                 <span class="sr-only">Great</span>
                             </div>
