@@ -146,6 +146,10 @@ div div h3 {
         width: 80%;
     }
 
+    .charnav-icon {
+        margin-bottom: 1rem;
+    }
+
     .syn-char-pic {
         background: url(../images/BellBust.png) center no-repeat;
         background-size: contain;
