@@ -15,7 +15,7 @@ body {
 }
 
 body {
-    background-color:rgba(255, 235, 205, 0.6);
+    background-color: rgba(255, 235, 205, 0.6);
     font-weight: 450;
 }
 
@@ -170,6 +170,8 @@ footer {
 /* Stat Bars */
 
 .progress {
+    /* Copied from UCD-resume from mini-project of Code Institute and edited for my needs. 
+    https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4/blob/master/15-adding-skills-section/assets/css/style.css*/
     position: relative;
     height: 25px;
     margin-bottom: 4px;
@@ -177,6 +179,8 @@ footer {
 }
 
 .stat-type {
+    /* Copied from UCD-resume from mini-project of Code Institute and edited for my needs. 
+    https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4/blob/master/15-adding-skills-section/assets/css/style.css*/
     position: absolute;
     left: 0px;
     font-weight: 500;
@@ -190,7 +194,7 @@ footer {
 }
 
 .progress .text-dark {
-    color: #131517!important;
+    color: #131517 !important;
     font-weight: 500;
     text-shadow: 1px 1px 1px #fafafa;
 }
@@ -215,6 +219,7 @@ footer {
 }
 
 @media screen and (max-height: 768px) and (min-height: 768px) and (orientation: landscape) {
+
     /* Specifically for the iPad Mini landscape orientation */
     .hero-image {
         height: 70vh;
@@ -222,6 +227,7 @@ footer {
 }
 
 @media screen and (max-width: 912px) and (min-width: 912px) and (orientation: portrait) {
+
     /* This is specifically for the Surface Pro 7 portrait setting, for which my hatred burns like a thousand suns. */
     .hero-image {
         height: 64vh;
@@ -231,6 +237,7 @@ footer {
 }
 
 @media screen and (max-width: 1368px) and (min-width: 1368px) and (orientation: landscape) {
+
     /* Surface Pro 7 landscape orientation */
     .hero-image {
         height: 75vh;
@@ -238,6 +245,7 @@ footer {
 }
 
 @media screen and (max-width: 1180px) and (min-width: 1180px) and (orientation: landscape) {
+
     /* Specifically for the iPad Air landscape orientation */
     .hero-image {
         height: 77vh;

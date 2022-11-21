@@ -52,6 +52,10 @@ The hero image, icons, and each of the character images are taken from a commiss
 - **Problem:** There was a great amount of space between the navbar and the hero image on the index page.
 	- **Solution:** Added separate @media rules for each screen size in which there was an issue and adjusted until the page looked serviceable. This required a lot of small adjustments and specific rule ordering to make sure the general rules weren't overridden.
 
+## Wireframes
+
+I did not create picture wireframes for this project; however, below is my written plan for the site as I was coding it.
+
 #### Will need the following:
 - An index page with a hero image - the four heroes of Armings: Bell, Subao, Corlan Falster, and Sun Mullnir.
 	- Heading: ARMINGS QUEST (needs to be stylised!!!)
@@ -73,3 +77,24 @@ The hero image, icons, and each of the character images are taken from a commiss
 	- Potentially add more lore about the characters?
 - Friends of the Fellowship pages!
 	- Details of the assorted allies of the party.
+
+# Credit
+
+## Code
+
+Code not written by me and not covered below is attributed to proper sources in comments within the code. All other code is written by me.
+
+### HTML
+- Code for the navbar in the header of each page was copied from [the official Bootstrap documentation](https://getbootstrap.com/docs/4.6/components/navbar/) and edited heavily for my purposes.
+- Code for the stat bars was copied from [the official Bootstrap documentation](https://getbootstrap.com/docs/4.6/components/progress/) and edited for my purposes.
+
+### CSS
+Refer to style.css for attribution.
+
+## Media
+
+### Images
+- Most images are sourced from the hero image, which is a commissioned art piece for the characters in question.
+
+### Icons
+- Expand icon sourced from [Bootstrap Icons](https://icons.getbootstrap.com/icons/arrows-expand/).
