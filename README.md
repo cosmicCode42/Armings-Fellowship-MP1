@@ -121,6 +121,8 @@ The site has been tested extensively to ensure the best user experience across m
 	- **Solution:** Added separate @media rules for each screen size in which there was an issue and adjusted until the page looked serviceable. This required a lot of small adjustments and specific rule ordering to make sure the general rules weren't overridden.
 - **Problem:** On smaller screens with the collapsible layout, there was a bit too much space between the character icons and the navbar in the header.
 	- **Solution:** I still had a ``charnav-icon`` class added to a section that exists only to push the character icons to the right on larger screens. Removing this class from that section fixed the issue.
+- **Problem:** There's a bit of white space to the right of the hero image on large screens.
+	- **Solution:** The ``height`` in the ``hero-image`` CSS was slightly too large at 110vh. Changing it to 101vh fixed the issue.
 
 # Credit
 
