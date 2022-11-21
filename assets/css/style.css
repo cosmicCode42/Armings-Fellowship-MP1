@@ -14,6 +14,11 @@ body {
     width: 100%;
 }
 
+body {
+    background-color:rgba(255, 235, 205, 0.6);
+    font-weight: 450;
+}
+
 .text-left {
     text-align: left;
 }
@@ -56,7 +61,7 @@ div div h3 {
 /* Navbars */
 
 .nav-index {
-    background-color: firebrick;
+    background-color: #b22222;
     color: #fafafa;
 }
 
@@ -79,8 +84,15 @@ div div h3 {
     background-color: firebrick;
 }
 
+/* Character Icons */
+
 .rounded-circle:hover {
     opacity: 0.7;
+}
+
+.charnav-index-icon .figure-caption {
+    color: black;
+    font-weight: 400;
 }
 
 /* Footer */
@@ -161,6 +173,7 @@ footer {
     position: relative;
     height: 25px;
     margin-bottom: 4px;
+    background-color: #e1d2bb;
 }
 
 .stat-type {
@@ -174,6 +187,16 @@ footer {
 
 .bio-stats {
     margin: 40px 20px;
+}
+
+.progress .text-dark {
+    color: #131517!important;
+    font-weight: 500;
+    text-shadow: 1px 1px 1px #fafafa;
+}
+
+.progress .stat-type .text-dark {
+    font-weight: 600;
 }
 
 /*  Responsive design for variable screens */
