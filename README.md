@@ -38,7 +38,7 @@ As a user of this site, I want:
 	- Links to each of the characters' pages (DONE!)
 		- Turn Images into Figures to add characters' names under their images. (DONE!)
 - Character pages!
-	- an individual page for each character (4 pages in all; making good progress!)
+	- an individual page for each character (4 pages in all; DONE!)
 		- Character picture set to the left of the page; text in a separate section to the right.
 			- Text has 2 sections: Header and small bio.
 				- Header is character name, with a subtitle of a character title!
@@ -59,8 +59,7 @@ As a user of this site, I want:
 - **Problem:** The numbers added to the progress bars representing character statistics look strange on smaller screens.
 	- **Solution:** Added a span that only displays the numbers on Small or smaller screens, on which they look fine. The exception is Sun's Intelligence of 8, which only displays on Large or larger screens.
 - **Problem:** There was a great amount of space between the navbar and the hero image on the index page.
-	- **Solution:** Set the background-position value of the hero image to 'inherit', which fixed the space issue.
-	- **Problem:** This solution caused the image to become lopsided on larger screens. To fix this, I added separate @media rules for each screen size in which there was an issue and adjusted until the page looked serviceable.
+	- **Solution:** Added separate @media rules for each screen size in which there was an issue and adjusted until the page looked serviceable. This required a lot of small adjustments and specific rule ordering to make sure the general rules weren't overridden.
 
 #### Future Additions:
 - Music?

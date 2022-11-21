@@ -178,15 +178,6 @@ footer {
 
 /*  Responsive design for variable screens */
 
-@media screen and (max-width: 912px) and (orientation: portrait) {
-    /* This is specifically for the Surface Pro 7, for which my hatred burns like a thousand suns. */
-    .hero-image {
-        height: 64vh;
-        max-height: 460px;
-        background-size: cover;
-    }
-}
-
 @media screen and (max-width: 1440px) and (orientation: landscape) {
     .hero-image {
         height: 86vh;
@@ -207,6 +198,15 @@ footer {
     }
 }
 
+@media screen and (max-width: 912px) and (min-width: 912px) and (orientation: portrait) {
+    /* This is specifically for the Surface Pro 7 portrait setting, for which my hatred burns like a thousand suns. */
+    .hero-image {
+        height: 64vh;
+        max-height: 460px;
+        background-size: cover;
+    }
+}
+
 @media screen and (max-width: 1368px) and (min-width: 1368px) and (orientation: landscape) {
     /* Surface Pro 7 landscape orientation */
     .hero-image {
@@ -224,12 +224,14 @@ footer {
 @media screen and (max-width: 820px) {
     .hero-image {
         height: 64vh;
+        max-height: 460px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .hero-image {
         height: 64vh;
+        max-height: 460px;
     }
 }
 
