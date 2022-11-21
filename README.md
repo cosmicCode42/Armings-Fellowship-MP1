@@ -2,7 +2,7 @@
 
 Milestone Project for the Introduction to Web Development course offered by Code Institute. A site giving information about a party of adventurers hailing from, or affiliated with, the village of Armings in the Neverwinter Woods.
 
-**Technologies Used:** HTML5, CSS3; Bootstrap 4.5.3.
+**Technologies Used:** HTML5, CSS3; Bootstrap 4.6.0.
 
 ## Deployment
 
@@ -68,27 +68,11 @@ As a user of this site, I want:
 
 ### Colours
 
-The background colour (rgba(255, 235, 205, 0.6)) and black text for the main body was chosen for its simplicity and resemblance to yellowed paper or parchment. The header and footer use firebrick red (#b22222) as a background colour and off-white (#fafafa) text, for a pleasing contrast.
+The background colour (``rgba(255, 235, 205, 0.6)``) and black text for the main body was chosen for its simplicity and resemblance to yellowed paper or parchment. The header and footer use firebrick red (``#b22222``) as a background colour and off-white (``#fafafa``) text, for a pleasing contrast.
 
 ### Images
 
 The hero image, icons, and each of the character images are taken from a commissioned art piece made of the characters in question.
-
-### Bugfixes
-- **Problem:** The character icons looked slightly lopsided on the index page.
-	- **Solution:** I added percentage padding to the left of each icon to make them more central and adjusted the padding on smaller screens with a CSS @media rule to keep them oriented for that layout.
-- **Problem:** Character icons on the chracter pages were pushed too far to the left on smaller screen sizes.
-	- **Solution:** I used a different class (charnav-icon instead of charnav-index-icon) with slightly different padding to account for the differences in layout between the index page and the character pages.
-- **Problem:** Discovered that I had been using a media class for the character icons when I didn't need to.
-	- **Solution:** Removed the media class from all icons on all pages. This also helped with the orientation issue.
-- **Problem:** Discovered one of the classes added to the character icons (the mr-3 class) was adding a bit of space to the right of the icons.
-	- **Solution:** Removed the mr-3 class from all icons. As an added bonus, the left padding is no longer necessary (and in fact contributes to the lopsided issue now), so I removed those CSS rules.
-- **Problem:** Misplaced a closing div within the character icon section on Subao's page. This closed the 'charnav' section early, causing a very strange lopsided effect where two of the icons were excluded and formed new rows.
-	- **Solution:** Deleted the additional closing div, which fixed the issue.
-- **Problem:** The numbers added to the progress bars, representing character statistics, look strange on smaller screens.
-	- **Solution:** Added a span that only displays the numbers on Small or smaller screens, on which they look fine. The exception is Sun's Intelligence of 8, which only displays on Large or larger screens.
-- **Problem:** There was a great amount of space between the navbar and the hero image on the index page.
-	- **Solution:** Added separate @media rules for each screen size in which there was an issue and adjusted until the page looked serviceable. This required a lot of small adjustments and specific rule ordering to make sure the general rules weren't overridden.
 
 ## Wireframes
 
@@ -115,6 +99,26 @@ I did not create picture wireframes for this project; however, below is my writt
 	- Potentially add more lore about the characters?
 - Friends of the Fellowship pages!
 	- Details of the assorted allies of the party.
+
+## Testing
+
+The site has been tested extensively to ensure the best user experience across multiple screen sizes.
+
+### Bugfixes
+- **Problem:** The character icons looked slightly lopsided on the index page.
+	- **Solution:** I added percentage padding to the left of each icon to make them more central and adjusted the padding on smaller screens with a CSS @media rule to keep them oriented for that layout.
+- **Problem:** Character icons on the chracter pages were pushed too far to the left on smaller screen sizes.
+	- **Solution:** I used a different class (charnav-icon instead of charnav-index-icon) with slightly different padding to account for the differences in layout between the index page and the character pages.
+- **Problem:** Discovered that I had been using a media class for the character icons when I didn't need to.
+	- **Solution:** Removed the media class from all icons on all pages. This also helped with the orientation issue.
+- **Problem:** Discovered one of the classes added to the character icons (the mr-3 class) was adding a bit of space to the right of the icons.
+	- **Solution:** Removed the mr-3 class from all icons. As an added bonus, the left padding is no longer necessary (and in fact contributes to the lopsided issue now), so I removed those CSS rules.
+- **Problem:** Misplaced a closing div within the character icon section on Subao's page. This closed the 'charnav' section early, causing a very strange lopsided effect where two of the icons were excluded and formed new rows.
+	- **Solution:** Deleted the additional closing div, which fixed the issue.
+- **Problem:** The numbers added to the progress bars, representing character statistics, look strange on smaller screens.
+	- **Solution:** Added a span that only displays the numbers on Small or smaller screens, on which they look fine. The exception is Sun's Intelligence of 8, which only displays on Large or larger screens.
+- **Problem:** There was a great amount of space between the navbar and the hero image on the index page.
+	- **Solution:** Added separate @media rules for each screen size in which there was an issue and adjusted until the page looked serviceable. This required a lot of small adjustments and specific rule ordering to make sure the general rules weren't overridden.
 
 # Credit
 
