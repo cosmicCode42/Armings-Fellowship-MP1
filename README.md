@@ -4,9 +4,47 @@ Milestone Project for the Introduction to Web Development course offered by Code
 
 **Technologies Used:** HTML5, CSS3; Bootstrap 4.5.3.
 
-## Installation
+## Deployment
 
-Deploy with GitHub Pages or a similar website hosting and rendering service. The html files can also be opened from local storage (this requires downloading all files in a dedicated folder; this can be done with the git pull command).
+Deploy to GitHub Pages or a similar website hosting and rendering service. The html files can also be opened from local storage (this requires downloading all files in a dedicated folder; this can be done with the git pull command).
+
+To deploy this site to GitHub Pages from [its GitHub repository](https://github.com/cosmicCode42/Armings-Fellowship-MP1), the following steps were taken.
+
+1. Log in to GitHub.
+2. From the list of repositories on the screen, select **cosmicCode42/Armings-Fellowship-MP1**. (The above link leads straight to the repository in question.)
+3. Select **Settings** from the menu items near the top of the page.
+4. From the left sidebar, select **Pages**.
+5. Under **Build and Deployment** select **Deploy from a branch** as the Source and **main** as the branch.
+6. Page is refreshed and site is being deployed.
+7. Scroll down to **GitHub Pages** section again to retrieve the link for the deployed site.
+
+At the moment of submitting the milestone project, the development branch and main branch are identical.
+
+### How to run the project locally
+
+To clone this project from GitHub:
+
+1. Follow this link to [its GitHub repository](https://github.com/cosmicCode42/Armings-Fellowship-MP1).
+2. Under the Code dropdown menu in the Code section, you can copy the HTTPS link or download a ZIP.
+3. A copied link can be used to make a pull request using Git Bash. 
+	1. Change the current working directory to one where you want the clone to be made.
+	2. Run ``git init`` to initialise a local repository.
+	3. Run ``git remote add origin`` and paste the copied link right after. Running this command sets the GitHub repository as the 'origin'.
+	4. Run ``git branch -M main`` if the local repository doesn't have a main branch.
+	5. Run ``git pull origin main`` to make the pull request.
+
+### Cloning project into GitPod
+
+To clone this project into GitPod, you will need:
+- A [GitHub](https://github.com) account.
+- A Chrome browser or compatible browser.
+
+Then follow these steps:
+1. Install the [GitPod browser extension for Chrome](https://www.gitpod.io/docs/configure/user-settings/browser-extension).
+2. Restart the browser after installation.
+3. Log into [GitPod] with your GitHub account.
+4. Navigate into the [Project GitHub repository](https://github.com/cosmicCode42/Armings-Fellowship-MP1).
+5. Click the green **GitPod** button in the top right corner of the repository. This will trigger a new GitPod workspace to be created from the code in GitHub where you can work normally.
 
 ## UX
 
