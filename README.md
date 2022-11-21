@@ -4,9 +4,32 @@ Milestone Project for the Introduction to Web Development course offered by Code
 
 **Technologies Used:** HTML5, CSS3; Bootstrap 4.5.3.
 
-### UX
-- Intended audience: myself and my friends, as well as other people that might be interested in following our group's adventures.
-- Goals: provide information about all the characters in the party.
+## UX
+
+### Project Goals
+The primary goals of the site are to provide information about the characters in the party in a pleasing and easy-to-understand manner. Intended audience: myself and my friends, as well as other people that might be interested in following our group's adventures.
+
+#### User Goals
+
+User goals are:
+- An easy to navigate site.
+- Informative character pages.
+
+### User Stories
+As a user of this site, I want:
+- A site and interface that is intuitive and easy to navigate.
+- Information that is easy to find and understand, and laid out in a pleasing manner.
+- Additional media (such as character portraits) to give me a better idea of the characters.
+
+### Design Choices
+
+#### Fonts
+
+#### Colours
+
+#### Backgrounds
+
+#### Images
 
 #### Will need the following:
 - An index page with a hero image - the four heroes of Armings: Bell, Subao, Corlan Falster, and Sun Mullnir.

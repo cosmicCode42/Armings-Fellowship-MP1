@@ -93,11 +93,11 @@ footer {
 /* Hero Image */
 
 .hero-image {
-    height: 112vh;
+    height: 110vh;
     width: 100%;
     background: url('../images/armings_heroes.png') center no-repeat;
     background-size: cover;
-    background-position: inherit;
+    background-position: center;
 }
 
 .blurb {
@@ -176,44 +176,60 @@ footer {
     margin: 40px 20px;
 }
 
-/*  Responsive design for smaller screens */
+/*  Responsive design for variable screens */
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 912px) and (orientation: portrait) {
+    /* This is specifically for the Surface Pro 7, for which my hatred burns like a thousand suns. */
     .hero-image {
-        height: 96vh;
+        height: 64vh;
+        max-height: 460px;
+        background-size: cover;
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1440px) and (orientation: landscape) {
     .hero-image {
         height: 86vh;
         background-size: cover;
     }
 }
 
-/* This is specifically for the Surface Pro 7, for which my hatred burns like a thousand suns. */
-@media screen and (max-width: 912px) {
+@media screen and (max-width: 1024px) and (orientation: landscape) {
     .hero-image {
-        height: 64vh;
-        max-height: 420px;
-        background-size: contain;
-        background-position: center;
+        height: 84vh;
+    }
+}
+
+@media screen and (max-height: 768px) and (min-height: 768px) and (orientation: landscape) {
+    /* Specifically for the iPad Mini landscape orientation */
+    .hero-image {
+        height: 70vh;
+    }
+}
+
+@media screen and (max-width: 1368px) and (min-width: 1368px) and (orientation: landscape) {
+    /* Surface Pro 7 landscape orientation */
+    .hero-image {
+        height: 75vh;
+    }
+}
+
+@media screen and (max-width: 1180px) and (min-width: 1180px) and (orientation: landscape) {
+    /* Specifically for the iPad Air landscape orientation */
+    .hero-image {
+        height: 77vh;
     }
 }
 
 @media screen and (max-width: 820px) {
     .hero-image {
         height: 64vh;
-        max-height: 420px;
-        background-size: contain;
     }
 }
 
 @media screen and (max-width: 768px) {
     .hero-image {
         height: 64vh;
-        max-height: 420px;
-        background-size: contain;
     }
 }
 
