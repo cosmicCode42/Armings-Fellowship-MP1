@@ -122,7 +122,7 @@ The site has been tested extensively to ensure the best user experience across m
 - **Problem:** On smaller screens with the collapsible layout, there was a bit too much space between the character icons and the navbar in the header.
 	- **Solution:** I still had a ``charnav-icon`` class added to a section that exists only to push the character icons to the right on larger screens. Removing this class from that section fixed the issue.
 - **Problem:** There's a bit of white space to the right of the hero image on large screens.
-	- **Solution:** The ``height`` in the ``hero-image`` CSS was slightly too large at 110vh. Changing it to 101vh fixed the issue.
+	- **Solution:** The entire document appears to be shifted slightly to the left. After extensive testing, I realised that I hadn't added a ``container-fluid`` class to the header of any page, which was slightly messing up each page's layout. Adding the ``container-fluid`` class to the header of each page solved the issue.
 
 # Credit
 

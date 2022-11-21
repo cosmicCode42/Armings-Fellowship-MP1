@@ -40,10 +40,6 @@ h6 {
     text-align: center;
 }
 
-a {
-    text-decoration: none;
-}
-
 div div h3 {
     padding-bottom: 50px;
 }
@@ -105,10 +101,10 @@ footer {
 /* Hero Image */
 
 .hero-image {
-    height: 101vh;
+    height: 108vh;
     width: 100%;
     background: url('../images/armings_heroes.png') center no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
 }
 
