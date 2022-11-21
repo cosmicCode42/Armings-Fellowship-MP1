@@ -43,14 +43,21 @@
 
                                     <div class="dropdown-divider"></div>
 
-                                    <!-- All this stuff is coming later. -->
-                                    <a class="dropdown-item disabled" href="#">Allies of the Fellowship</a>
-                                    <a class="dropdown-item disabled" href="#">Other</a>
+                                    <!-- This stuff is coming later. -->
+                                    <span class="d-block" data-toggle="popover" data-trigger="hover"
+                                        data-content="Coming Soon!">
+                                        <a class="dropdown-item disabled" href="#">Allies of the Fellowship</a>
+                                    </span>
+                                    <span class="d-block" data-toggle="popover" data-trigger="hover"
+                                        data-content="Coming Soon!"><a class="dropdown-item disabled" href="#">Other</a>
+                                    </span>
                                     <!-- The above stuff is coming soon! -->
                                 </div>
                             </div>
                             <!-- History coming soon! -->
-                            <a class="nav-link disabled" href="history.html">History</a>
+                            <span class="d-block" data-toggle="popover" data-trigger="hover"
+                                data-content="Coming Soon!"><a class="nav-link disabled" href="history.html">History</a>
+                            </span>
                         </div>
                     </div>
                 </nav>
@@ -60,7 +67,7 @@
 
         <!-- These are the character icons! -->
         <div class="row charnav">
-            <div class="col-md-5 charnav-icon">
+            <div class="col-md-5">
                 <div class="d-none">
                     <img src="assets/images/blank.png" class="rounded-circle" height="100" width="100" alt="">
                 </div>
@@ -204,6 +211,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+    <!-- Copied from the popover documentation on Bootstrap. https://getbootstrap.com/docs/4.6/components/popovers/ -->
+    <script>
+        $(function () {
+            $('[data-toggle="popover"]').popover()
+        })
+    </script>
 </body>
 
 </html>

@@ -119,6 +119,8 @@ The site has been tested extensively to ensure the best user experience across m
 	- **Solution:** Added a span that only displays the numbers on Small or smaller screens, on which they look fine. The exception is Sun's Intelligence of 8, which only displays on Large or larger screens.
 - **Problem:** There was a great amount of space between the navbar and the hero image on the index page.
 	- **Solution:** Added separate @media rules for each screen size in which there was an issue and adjusted until the page looked serviceable. This required a lot of small adjustments and specific rule ordering to make sure the general rules weren't overridden.
+- **Problem:** On smaller screens with the collapsible layout, there was a bit too much space between the character icons and the navbar in the header.
+	- **Solution:** I still had a ``charnav-icon`` class added to a section that exists only to push the character icons to the right on larger screens. Removing this class from that section fixed the issue.
 
 # Credit
 
