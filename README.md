@@ -30,7 +30,7 @@ As a user of this site, I want:
 
 ### Colours
 
-The background colour (rgba(255, 235, 205, 0.6)) and black text for the main body was chosen for its simplicity and resemblance to parchment. The header and footer use firebrick red (#b22222) as a background colour and 0ff-white (#fafafa) text, for a pleasing contrast.
+The background colour (rgba(255, 235, 205, 0.6)) and black text for the main body was chosen for its simplicity and resemblance to yellowed paper or parchment. The header and footer use firebrick red (#b22222) as a background colour and off-white (#fafafa) text, for a pleasing contrast.
 
 ### Images
 
