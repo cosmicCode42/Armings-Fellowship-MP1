@@ -101,10 +101,10 @@ footer {
 /* Hero Image */
 
 .hero-image {
-    height: 108vh;
+    height: 105vh;
     width: 100%;
     background: url('../images/armings_heroes.png') center no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
 }
 
@@ -201,21 +201,13 @@ footer {
 
 /*  Responsive design for variable screens */
 
-@media screen and (max-width: 1440px) and (orientation: landscape) {
+@media screen and (max-width: 1024px) {
     .hero-image {
-        height: 86vh;
-        background-size: cover;
-    }
-}
-
-@media screen and (max-width: 1024px) and (orientation: landscape) {
-    .hero-image {
-        height: 84vh;
+        height: 85vh;
     }
 }
 
 @media screen and (max-height: 768px) and (min-height: 768px) and (orientation: landscape) {
-
     /* Specifically for the iPad Mini landscape orientation */
     .hero-image {
         height: 70vh;
