@@ -231,7 +231,7 @@ footer {
 @media screen and (max-width: 768px) {
     .hero-image {
         height: 64vh;
-        max-height: 460px;
+        max-height: 450px;
     }
 }
 
