@@ -4,6 +4,8 @@ Milestone Project for the Introduction to Web Development course offered by Code
 
 ## Table of Contents
 1. [UX](#ux)
+	- [Project Goals](#project-goals)
+	- [User Stories](#user-stories)
 	- [Design Choices](#design-choices)
 2. [Planning](#planning)
 3. [Future Additions](#future-additions)
@@ -32,13 +34,13 @@ As a user of this site, I want:
 - Information that is easy to find and understand, and laid out in a pleasing manner.
 - Additional media (such as character portraits) to give me a better idea of the characters.
 
-## Design Choices
+### Design Choices
 
-### Colours
+#### Colours
 
 The background colour (``rgba(255, 235, 205, 0.6)``) and black text for the main body was chosen for its simplicity and resemblance to yellowed paper or parchment. The header and footer use firebrick red (``#b22222``) as a background colour and off-white (``#fafafa``) text, for a pleasing contrast.
 
-### Images
+#### Images
 
 The hero image, icons, and each of the character images are taken from a commissioned art piece made of the characters in question.
 
@@ -72,7 +74,19 @@ I did not create picture wireframes for this project; however, below is my writt
 
 ## Testing
 
-The site has been tested extensively to ensure the best user experience across multiple screen sizes.
+The site has been tested extensively to ensure the best user experience across multiple screen sizes. 
+
+### Testing Process
+
+In order to make sure the site renders acceptably across several screen sizes, I made liberal use of the DevTools offered by Google Chrome (or in my case, the Opera GX browser that closely mimics Chrome) as well as testing load times of each page, mobile and desktop, with the Lighthouse Chrome extension.
+
+As a user of the site, I want: 
+- A site and interface that is intuitive and easy to navigate.
+	- 
+- Information that is easy to find and understand, and laid out in a pleasing manner.
+	- While this is subjective, I believe the contrast in colours I have chosen looks good, and the information is all clearly laid out.
+- Additional media (such as character portraits) to give me a better idea of the characters.
+	- I made use of character images to give a clear idea of each character's appearance, as well as progress bars to show the character's comparative strengths in several areas (known as 'stats').
 
 ### Bugfixes
 - **Problem:** The character icons looked slightly lopsided on the index page.
