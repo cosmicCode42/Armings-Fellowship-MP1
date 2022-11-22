@@ -74,6 +74,10 @@ div div h3 {
     text-decoration: underline;
 }
 
+.nav-link.disabled {
+    color: #adb5bd;
+}
+
 .nav-index .dropdown-menu,
 .nav-index .dropdown-menu .active,
 .nav-index .dropdown-menu .dropdown-item:hover {
