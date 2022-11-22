@@ -156,7 +156,7 @@ To clone this project into GitPod, you will need:
 Then follow these steps:
 1. Install the [GitPod browser extension for Chrome](https://www.gitpod.io/docs/configure/user-settings/browser-extension).
 2. Restart the browser after installation.
-3. Log into [GitPod] with your GitHub account.
+3. Log into [GitPod](https://www.gitpod.io) with your GitHub account.
 4. Navigate into the [Project GitHub repository](https://github.com/cosmicCode42/Armings-Fellowship-MP1).
 5. Click the green **GitPod** button in the top right corner of the repository. This will trigger a new GitPod workspace to be created from the code in GitHub where you can work normally.
 
