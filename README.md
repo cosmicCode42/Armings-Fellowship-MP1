@@ -30,11 +30,15 @@ User goals are:
 
 ### User Stories
 As a user of this site, I want:
-- A site and interface that is intuitive and easy to navigate.
+- A site and interface that is intuitive, convenient and easy to navigate.
 - Information that is easy to find and understand, and laid out in a pleasing manner.
 - Additional media (such as character portraits) to give me a better idea of the characters.
 
 ### Design Choices
+
+#### Interface 
+
+I went with a simple navbar at the top and clickable character icons that lead to the character pages; the icons light up slightly when the mouse hovers over them (using ``:hover`` and ``opacity`` in CSS). The navbar also remains fixed to the top of the screen, reducing scrolling required to return home or go to another character page. While this is subjective, I believe the contrast in colours I have chosen looks good, and the information is all clearly laid out.
 
 #### Colours
 
@@ -42,7 +46,7 @@ The background colour (``rgba(255, 235, 205, 0.6)``) and black text for the main
 
 #### Images
 
-The hero image, icons, and each of the character images are taken from a commissioned art piece made of the characters in question.
+I made use of character images to give a clear idea of each character's appearance, as well as progress bars to show the character's comparative strengths in several areas (known as 'stats'). The hero image, icons, and each of the character images are taken from a commissioned art piece made of the characters in question.
 
 ## Planning
 
@@ -82,11 +86,15 @@ In order to make sure the site renders acceptably across several screen sizes, I
 
 As a user of the site, I want: 
 - A site and interface that is intuitive, convenient and easy to navigate.
-	- I went with a simple navbar at the top and a 
+	- Test that all links lead to the proper places (character icons link to correct character pages, as do navbar links).
+	- Test that the character icons lighten when the mouse hovers over them.
+	- Ensure that the fixed-top navbar isn't clipping down into the main sections in its default position.
 - Information that is easy to find and understand, and laid out in a pleasing manner.
-	- While this is subjective, I believe the contrast in colours I have chosen looks good, and the information is all clearly laid out.
+	- Ensure that the images and text look acceptable and are spaced well on variable screen sizes.
+	- Ensure that all content is centred in easily identifiable sections.
 - Additional media (such as character portraits) to give me a better idea of the characters.
-	- I made use of character images to give a clear idea of each character's appearance, as well as progress bars to show the character's comparative strengths in several areas (known as 'stats').
+	- Test that character images are positioned well on variables screen sizes.
+	- Test that stat bars are positioned well on variable screen sizes.
 
 ### Bugfixes
 - **Problem:** The character icons looked slightly lopsided on the index page.
