@@ -203,6 +203,10 @@ footer {
     font-weight: 600;
 }
 
+#main-section {
+    padding-top: 55px;
+}
+
 /*  Responsive design for variable screens */
 
 @media screen and (max-width: 1024px) {
