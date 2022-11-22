@@ -81,8 +81,8 @@ The site has been tested extensively to ensure the best user experience across m
 In order to make sure the site renders acceptably across several screen sizes, I made liberal use of the DevTools offered by Google Chrome (or in my case, the Opera GX browser that closely mimics Chrome) as well as testing load times of each page, mobile and desktop, with the Lighthouse Chrome extension.
 
 As a user of the site, I want: 
-- A site and interface that is intuitive and easy to navigate.
-	- 
+- A site and interface that is intuitive, convenient and easy to navigate.
+	- I went with a simple navbar at the top and a 
 - Information that is easy to find and understand, and laid out in a pleasing manner.
 	- While this is subjective, I believe the contrast in colours I have chosen looks good, and the information is all clearly laid out.
 - Additional media (such as character portraits) to give me a better idea of the characters.
