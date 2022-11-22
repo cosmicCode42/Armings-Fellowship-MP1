@@ -36,17 +36,33 @@ As a user of this site, I want:
 
 ### Design Choices
 
-#### Interface 
+#### **Interface**
 
-I went with a simple navbar at the top and clickable character icons that lead to the character pages; the icons light up slightly when the mouse hovers over them (using ``:hover`` and ``opacity`` in CSS). The navbar also remains fixed to the top of the screen, reducing scrolling required to return home or go to another character page. While this is subjective, I believe the contrast in colours I have chosen looks good, and the information is all clearly laid out.
+I went with a simple navbar at the top and clickable character icons that lead to the character pages; the icons light up slightly when the mouse hovers over them (using ``:hover`` and ``opacity`` in CSS). 
 
-#### Colours
+![Icons without hover.](assets/images/readme/main_char_icons.png)
+
+![Icons with a hover over Subao.](assets/images/readme/main_char_icon_bao_lightup.png)
+
+The navbar also remains fixed to the top of the screen, reducing scrolling required to return home or go to another character page. While this is subjective, I believe the contrast in colours I have chosen looks good, and the information is all clearly laid out.
+
+#### **Colours**
 
 The background colour (``rgba(255, 235, 205, 0.6)``) and black text for the main body was chosen for its simplicity and resemblance to yellowed paper or parchment. The header and footer use firebrick red (``#b22222``) as a background colour and off-white (``#fafafa``) text, for a pleasing contrast.
 
-#### Images
+![Bell's character page.](assets/images/readme/bell_page.png)
 
-I made use of character images to give a clear idea of each character's appearance, as well as progress bars to show the character's comparative strengths in several areas (known as 'stats'). The hero image, icons, and each of the character images are taken from a commissioned art piece made of the characters in question.
+#### **Images**
+
+I made use of character images to give a clear idea of each character's appearance...
+
+![The main page!](assets/images/readme/main_page.png)
+
+... as well as progress bars to show the character's comparative strengths in several areas (known as 'stats'). 
+
+![Here we see Subao's stats.](assets/images/readme/subao_stat_bars.png)
+
+The hero image, icons, and each of the character images are taken from a commissioned art piece made of the characters in question.
 
 ## Planning
 
@@ -54,7 +70,7 @@ I made use of character images to give a clear idea of each character's appearan
 
 I did not create picture wireframes for this project; however, below is my written plan for the site as I was coding it.
 
-#### Will need the following:
+#### **Will need the following:**
 - An index page with a hero image - the four heroes of Armings: Bell, Subao, Corlan Falster, and Sun Mullnir.
 	- Heading: ARMINGS QUEST (needs to be stylised!!!)
 	- Blurb: Welcome to the Fellowship! (Added!)
@@ -166,18 +182,18 @@ Then follow these steps:
 
 Code not written by me and not covered below is attributed to proper sources in comments within the code. All other code is written by me.
 
-#### HTML
+#### *HTML*
 - Code for the navbar in the header of each page was copied from [the official Bootstrap documentation](https://getbootstrap.com/docs/4.6/components/navbar/) and edited heavily for my purposes.
 - Code for the stat bars was copied from [the official Bootstrap documentation](https://getbootstrap.com/docs/4.6/components/progress/) and edited for my purposes.
 - Code to add popovers and initialise them was copied from [the official Bootstrap documentation](https://getbootstrap.com/docs/4.6/components/popovers/).
 
-#### CSS
+#### *CSS*
 Refer to style.css for attribution.
 
 ### Media
 
-#### Images
+#### *Images*
 - Most images are sourced from the hero image, which is a commissioned art piece for the characters in question.
 
-#### Icons
+#### *Icons*
 - Expand icon sourced from [Bootstrap Icons](https://icons.getbootstrap.com/icons/arrows-expand/).
