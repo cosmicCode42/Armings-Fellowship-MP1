@@ -194,6 +194,7 @@ Then follow these steps:
 Code not written by me and not covered below is attributed to proper sources in comments within the code. All other code is written by me.
 
 #### *HTML*
+- Code relies heavily on [Bootstrap framework](https://getbootstrap.com/docs/4.6/getting-started/introduction/).
 - Code for the navbar in the header of each page was copied from [the official Bootstrap documentation](https://getbootstrap.com/docs/4.6/components/navbar/) and edited heavily for my purposes.
 - Code for the stat bars was copied from [the official Bootstrap documentation](https://getbootstrap.com/docs/4.6/components/progress/) and edited for my purposes.
 - Code to add popovers and initialise them was copied from [the official Bootstrap documentation](https://getbootstrap.com/docs/4.6/components/popovers/).
