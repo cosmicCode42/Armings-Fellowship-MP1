@@ -94,11 +94,22 @@ I did not create picture wireframes for this project; however, below is my writt
 
 ## Testing
 
-The site has been tested extensively to ensure the best user experience across multiple screen sizes. 
+The site has been tested extensively to ensure the best user experience across multiple screen sizes.
+
+- [W3C CSS Validation](https://jigsaw.w3.org/css-validator/#validate_by_input)
+- [W3C Markup Validation](https://validator.w3.org/#validate_by_input)
+
+The developer used **W3C CSS Validation Service** and **W3C Markup Validation Service** to check the validity of the website code.
 
 ### Testing Process
 
 In order to make sure the site renders acceptably across several screen sizes, I made liberal use of the DevTools offered by Google Chrome (or in my case, the Opera GX browser that closely mimics Chrome) as well as testing load times of each page, mobile and desktop, with the Lighthouse Chrome extension.
+
+![Testing main page desktop version.](assets/images/readme/lighthouse_test_main_desktop.png)
+
+![Testing main page mobile version.](assets/images/readme/lighthouse_test_main_mobile.png)
+
+### User Stories Testing
 
 As a user of the site, I want: 
 - A site and interface that is intuitive, convenient and easy to navigate.
